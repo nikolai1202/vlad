@@ -493,10 +493,10 @@ h6,
 }
 #msg-box6-3 B {
   color: #f7da64;
-  text-align: left;
+  text-align: center;
 }
 #msg-box6-3 P {
-  text-align: center;
+  text-align: left;
 }
 #msg-box7-7 .mbr-section-title,
 #msg-box7-7 .lead p {
@@ -564,7 +564,7 @@ h6,
 }
 #header2-1 .mbr-section-title DIV {
   text-align: left;
-  font-size: 20px;
+  font-size: 19px;
 }
 #slider-e H2 {
   font-size: 30px;
