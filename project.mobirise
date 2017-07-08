@@ -7,22 +7,22 @@
       "title": "Mobirise 3",
       "styling": {
         "primaryColor": "#e25041",
-        "secondaryColor": "#bfcecb",
+        "secondaryColor": "#efefef",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Lato",
-        "subtitleFont": "Oswald",
-        "textFont": "Roboto Condensed",
-        "isRoundedButtons": false,
+        "subtitleFont": "Roboto",
+        "textFont": "Roboto",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
+        "isScrollToTopButton": true,
+        "isRtl": true
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 28,
+    "uniqCompNum": 38,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -135,6 +135,11 @@
               "text-align": "center"
             },
             "P": {
+              "text-align": "center",
+              "font-size": "20px",
+              "color": "#f4ef0e"
+            },
+            "SPAN": {
               "text-align": "left"
             }
           },
@@ -166,15 +171,15 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
               "src": "@THEME_PATH@/components/_images/desert.jpg"
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "src": "https://youtu.be/Df1B88f0LHI",
               "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "autoplay": "on",
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
@@ -183,73 +188,353 @@
             }
           },
           "title": "",
-          "text": "<p><b>ОБУЧАЮ УНИКАЛЬНОЙ МЕТОДИКЕ ПОИСКА И ПРИВЛЕЧЕНИЯ ПАРТНЕРОВ В РАЗЛИЧНЫЕ ПРОЕКТЫ И СЕТЕВЫЕ КОМПАНИИ НА ПОЛНОМ АВТОМАТЕ</b><br><b><br></b>ЧТО ВЫ ПОЛУЧИТЕ В МОЕЙ КОМАНДЕ:&nbsp;<br>набор сервисов для поиска партнеров;                                                                           — набор программ для привлечения партнеров;                                                                   — моё личное обучение, а мне есть чему вас научить;&nbsp;- онлайн поддержку с моей стороны с 9.00 до 21.00; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; —  помощь в работе с командой и с её развитием;&nbsp;— комплект полностью готовых шаблонов (под ключ) для создания автоматической воронки в млм-бизнесе по принципу «Скопировал — Вставил — Заработал» или — просто возьмите все готовое, затем примените это за 25 минут, и начните привлекать новых партнеров\\клиентов на автопилоте уже сегодня! Без головной боли о технических заморочках!<br></p>",
+          "text": "<br>ГАРАНТИЯ В ПОИСКЕ ПАРТНЁРОВ <br><br>;РЕШЕНИЕ ПРОБЛЕМЫ В ПОИСКЕ ПАРТНЕРОВ В БИЗНЕС<br><br><span style=\"line-height: 1.5;\">ГАРАНТИЯ ЗАРАБОТКА  72 000 РУБЛЕЙ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><br>В ПЕРВЫЙ ЖЕ МЕСЯЦ ДЛЯ КАЖДОГО ПАРТНЕРА &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br>ОБУЧАЮ МЕТОДИКЕ ПОИСКА И ПРИВЛЕЧЕНИЯ ПАРТНЕРОВ В ПРОЕКТЫ И СЕТЕВЫЕ КОМПАНИИ НА <br>НА ПОЛНОМ АВТОМАТЕ<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
-          "_inherit": "msg-box5",
           "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            },
-            "H3": {
-              "font-size": "21px",
-              "text-align": "left"
-            },
-            "DIV": {
-              "font-size": "21px"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box7",
-          "_anchor": "msg-box7-7",
+          "_name": "header3",
+          "_anchor": "header3-t",
           "_params": {
-            "imageSize": 50,
-            "paddingTop": "6",
-            "paddingBottom": "6",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "bgColor": "#fff",
-            "bgColorRadio": false,
+            "showMeta": true
+          },
+          "title": "<span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\">&nbsp;: ЧТО ПОЛУЧИТЕ В КОМАНДЕ</span>",
+          "meta": ""
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            "P": {
+              "font-size": "18px",
+              "color": "#000000",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-s",
+          "_params": {
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
+            "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
           },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/desert.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://youtu.be/2RbeqWqD0cE",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
+          "media1": {
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
             }
           },
-          "title": "<br>комплект полностью готовых шаблонов (под ключ) для<br><br> создания автоматической воронки в млм-бизнесе по принципу <br><br>«Скопировал &nbsp;<span style=\"line-height: 1.1;\">— Вставил — Заработал» </span><br><span style=\"line-height: 1.1;\"><br></span><span style=\"line-height: 1.1;\">или</span><br><span style=\"line-height: 1.1;\"><br></span><div>Просто возьмите все готовое, затем примените это за 25 минут,</div><br><div> и начните привлекать новых партнеров\\клиентов на автопилоте</div><br><div> уже сегодня! Без головной боли о технических заморочках!</div>",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://glopart.ru/buy/177175\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>"
+          "title1": "",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "&nbsp;н<b>абор сервисов для поиска партнеров, набор программ для привлечения партнеров, онлайн поддержку с 9.00 до 21.0</b>0",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title2": "помощь в работе с командой и её развитием Просто возьмите готовое, затем примените это за 25 минут",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title3": "комплект  готовых шаблонов для создания автоматической воронки в млм-бизнесе по принципу &nbsp;Скопировал — Вставил — Заработал",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title4": "начните привлекать новых партнеров или клиентов на автопилоте уже сегодня! Без головной боли о технических заморочках",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "30px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-u",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>",
+          "title": "КАКИЕ РЕЗУЛЬТАТЫ ПОЛУЧИТЕ ПОСЛЕ ПРИМЕНЕНИЯ НАШИХ МАТЕРИАЛОВ",
+          "text": ""
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-y",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> "
+        },
+        {
+          "_inherit": "contacts3",
+          "_styles": {
+            "p, .list-group-text, .form-control-label": {
+              "color": "#000"
+            },
+            "strong, h4": {
+              "color": "#7e9b9f"
+            },
+            "form .form-control": {
+              "border-color": "rgba(0, 0, 0, 0.2)",
+              "color": "#565656"
+            },
+            ".mbr-footer-content li": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-company .list-group-text::after": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "79620308500 +",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "г. Омск ул. Лермонтова 63",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "info@botnikov.ru",
+          "title1": "",
+          "text5": "",
+          "text6": "<strong>Contacts</strong><br><br><br><strong>Address</strong><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "botnikov.n@yandex.ru",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\">Contact us</a>"
         },
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": 2,
@@ -263,47 +548,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Mobirise.",
-          "_styles": {
-            "P": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-a",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "Какие результаты вы получите после применения наших материалов под ключ?",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+          "text": "Copyright (c) 2016 Mobirise."
         },
         {
           "_inherit": "features1",
@@ -311,6 +556,31 @@
             "Theme"
           ],
           "_name": "features2",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle I": {
+              "text-align": "left",
+              "font-size": "18px"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "font-size": "18px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "font-size": "18px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle DIV": {
+              "text-align": "center"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle B": {
+              "font-size": "16px"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle SPAN": {
+              "font-size": "18px",
+              "text-align": "right"
+            }
+          },
           "_anchor": "features2-b",
           "_params": {
             "columnsColor": "#2e2e2e",
@@ -347,7 +617,7 @@
             }
           },
           "title1": "",
-          "subtitle1": "<i>1) В результате проработки этих материалов под ключ  Вы создадите у себя Автоматическую воронку привлечения партнеров\\клиентов в ваш МЛМ-бизнес.</i>",
+          "subtitle1": "<div style=\"text-align: left;\"><span style=\"line-height: 1.7857;\"><i>В результате проработки этих материалов создадите у себя Автоматическую воронку привлечения партнеров или клиентов в МЛМ-бизнес</i></span></div>",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media2": {
@@ -362,7 +632,7 @@
             }
           },
           "title2": "",
-          "subtitle2": "<b>2) В результате вы раз и навсегда разберетесь в самых главных тонкостях и основах   интернет-бизнеса и современного маркетинга. Причем вам не надо будет ее делать самостоятельно… Вы просто возьмете все готовое, что мы для вас подготовили,                   настроили и проверили.</b>",
+          "subtitle2": "В результате дополнительного видеокурса- инструкции  (которая прилагается к материалам) раз и навсегда разберетесь в главных тонкостях и основах интернет-бизнеса и современного маркетинга<br><br>",
           "caption2": "",
           "button2": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media3": {
@@ -377,7 +647,7 @@
             }
           },
           "title3": "",
-          "subtitle3": "3) Главный вывод и результат:<div>Ваш МЛМ-бизнес теперь работает автоматически и приносит вам гораздо БОЛЬШЕ денег при том, что теперь вы тратите на него гораздо МЕНЬШЕ времени!</div><div><br><div><br></div></div>",
+          "subtitle3": "&nbsp;Причем не надо самостоятельно…  просто возьмете готовое, что уже подготовили, настроили и проверили<div><br><div><br></div></div>",
           "caption3": "",
           "button3": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media4": {
@@ -392,7 +662,7 @@
             }
           },
           "title4": "",
-          "subtitle4": "&nbsp;4) В итоге: <br>Вы начнете привлекать новых партнеров\\клиентов в ваш МЛМ-бизнес на полном АВТОПИЛОТЕ!!!",
+          "subtitle4": "В итоге начнете привлекать новых партнеров  или клиентов в МЛМ-бизнес на полном АВТОПИЛОТЕ",
           "caption4": "",
           "button4": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media5": {
@@ -422,22 +692,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-subtitle I": {
-              "text-align": "left",
-              "font-size": "18px"
-            },
-            ".mbr-cards-col:nth-child(even) .card-subtitle": {
-              "font-size": "18px"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
-              "font-size": "18px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_inherit": "features3",
@@ -445,6 +700,20 @@
             "Theme"
           ],
           "_name": "features6",
+          "_styles": {
+            "H4": {
+              "text-align": "left",
+              "font-size": "18px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#232323"
+            },
+            "P": {
+              "font-size": "18px",
+              "text-align": "left",
+              "color": "#232323"
+            }
+          },
           "_anchor": "features6-9",
           "_params": {
             "paddingTop": 2,
@@ -478,7 +747,7 @@
               "family": "et-line"
             }
           },
-          "title1": "<span style=\"font-weight: normal;\">1) &nbsp;Вы получите набор готовых сайтов (лендингов), которые вы сможете просто скопировать, вставить и загрузить себе. &nbsp; &nbsp; &nbsp; &nbsp; Причем они тут же начнут работать,   для этого не нужны программисты или дизайнеры! Вам не нужно никому платить за это. Все это проделать нужно будет таким образом: вы открываете наши специальные файлики с шаблонами, затем копируете из них специальный код щелчком правой кнопки мышки, затем вставляете этот код в специальное место на нужном сервисе (мы все детально покажем на видео с демонстрацией экрана).</span>",
+          "title1": "<span style=\"font-weight: normal;\">получите набор готовых сайтов (лендингов), которые сможете просто скопировать, вставить и загрузить себе. Причем тут же начнут работать,  для этого не нужны программисты или дизайнеры! Никому платить за это не нужно. А проделать нужно будет таким образом: открываете наши специальные файлики с шаблонами, затем копируете из них специальный код щелчком правой кнопки мышки, затем вставляете этот код в специальное место на нужном сервисе (детально покажем на видео с демонстрацией экрана</span>",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"hhttps://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
@@ -494,7 +763,7 @@
           },
           "title2": "",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "2) Данный набор готовых сайтов (лендингов) уже будет снабжен правильным продающим копирайтингом (текстами, которые продают на автопилоте)<br>Также вы получите набор готовых продающих писем, которые будут автоматически отправляться вашим партнерам\\клиентам, выстраивать с ними теплые отношения, и затем приводить их в ваш МЛМ-бизнес.<br><br>",
+          "caption2": "<b>набор готовых сайтов (лендингов) уже будет снабжен правильным продающим копирайтингом (текстами, которые продают на автопилоте). Также получите набор готовых продающих писем, которые будут автоматически отправляться партнерам или клиентам, выстраивать с ними теплые отношения, и затем приводить в МЛМ-бизнес<br></b><br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media3": {
             "iconFont": {
@@ -508,7 +777,7 @@
           },
           "title3": "",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "3) Вы также получите рекомендации по развитию вашего проекта. Повторюсь: все вышеперечисленные (и еще ряд вещей) вы получаете в готовом виде.  Это проще увидеть, чем объяснить! Вам не нужно будет что-то додумывать… просто КОПИРУЕТЕ и затем ВСТАВЛЯЕТЕ!&nbsp;",
+          "caption3": "<b>получите подробные инструкции по настройке необходимых технических сервисов (ничего выдумывать не потребуется, просто делаете 1 в 1 по нашей пошаговой инструкци</b>и",
           "button3": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media4": {
             "iconFont": {
@@ -522,7 +791,7 @@
           },
           "title4": "",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "4) Вы получите подробные инструкции по настройке необходимых технических сервисов (ничего выдумывать не потребуется, просто делаете 1 в 1 по нашей пошаговой инструкции и все)&nbsp;Сколько еще раз ЭТО написать, чтобы все-все-все и всё-всё-всё поняли?",
+          "caption4": "<b>также получите рекомендации по развитию проекта. Повторюсь: (и еще ряд вещей) получаете в готовом виде.  Это проще увидеть, чем объяснить! Просто КОПИРУЕТЕ и затем ВСТАВЛЯЕТЕ</b>",
           "button4": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media5": {
             "iconFont": {
@@ -551,27 +820,73 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
           "_styles": {
-            "H4": {
-              "text-align": "left",
-              "font-size": "18px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "color": "#232323"
+            ".mbr-section-title": {
+              "color": "#fff"
             },
-            "P": {
-              "font-size": "18px",
-              "text-align": "left",
-              "color": "#232323"
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0",
+              "font-size": "30px",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle B": {
+              "text-align": "left"
             }
-          }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-x",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>",
+          "title": "",
+          "text": "<b>ЧТО ПОЛУЧИТЕ В ЭТОМ ПРЕДЛОЖЕНИИ</b>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "H5": {
+              "font-size": "18px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#475577"
+            },
+            "H4": {
+              "color": "#475577",
+              "font-size": "18px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            "SPAN": {
+              "font-size": "19px"
+            }
+          },
           "_anchor": "features3-4",
           "_params": {
             "paddingTop": 2,
@@ -604,7 +919,7 @@
             }
           },
           "title1": "",
-          "subtitle1": "Это не просто курс или обучение, это готовый комплект шаблонов, которые вы сможете сразу же использовать!",
+          "subtitle1": "это не просто курс, это готовый комплект шаблонов, которые сможете сразу же использовать",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media2": {
@@ -616,7 +931,7 @@
             }
           },
           "title2": "",
-          "subtitle2": "Не надо тратить время на долгое изучение….не надо тратить время на освоение технической части….просто копируете наши шаблоны и всё готово!",
+          "subtitle2": "не тратьте время на изучение и на освоение технической части, просто копируйте наши шаблоны и готово",
           "caption2": "",
           "button2": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media3": {
@@ -627,8 +942,8 @@
               "active": true
             }
           },
-          "title3": "<span style=\"line-height: 1.2825;\">В наших шаблонах представлены самые новые наработки современного МЛМ-маркетинга конца 2016 года! &nbsp;</span><br>",
-          "subtitle3": "",
+          "title3": "",
+          "subtitle3": "в наших шаблонах представлены новые наработки современного млм-маркетинга конца 2016 года",
           "caption3": "",
           "button3": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
           "media4": {
@@ -639,7 +954,7 @@
               "active": true
             }
           },
-          "title4": "Помимо шаблонов вы получите пошаговую инструкцию по созданию базы подписчиков и готовые шаблоны писем и подробную инструкцию по авторассылке на лучшем сервисе!",
+          "title4": "Помимо шаблонов вы получите пошаговую инструкцию по созданию базы подписчиков и готовые шаблоны писем и подробную инструкцию по авторассылке на лучшем сервисе",
           "subtitle4": "",
           "caption4": "",
           "button4": "<a data-app-btn=\"true\" href=\"https://glopart.ru/buy/177175\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
@@ -666,94 +981,22 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "H5": {
-              "font-size": "18px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "color": "#475577"
-            },
-            "H4": {
-              "color": "#475577",
-              "font-size": "18px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            },
-            "SPAN": {
-              "font-size": "19px"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "color": "#2b0680"
-            },
-            ".mbr-section-title SPAN": {
-              "font-size": "16px",
-              "text-align": "right"
-            },
-            ".mbr-section-title DIV": {
-              "text-align": "left",
-              "font-size": "19px"
-            }
-          },
-          "_anchor": "header2-1",
-          "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "showArrow": true
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
-            },
-            "video": {
-              "src": "https://youtu.be/Df1B88f0LHI",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "ГАРАНТИЯ В ПОИСКЕ ПАРТНЁРОВ<br><div style=\"text-align: right;\"><br></div><div>ГАРАНТИЯ ЗАРАБОТКА ОТ 72 000 РУБЛЕЙ<span style=\"font-size: 20px; text-align: left; line-height: 1.1;\">В ПЕРВЫЙ ЖЕ&nbsp;</span><span style=\"text-align: left; font-size: 20px; line-height: 1.1;\">МЕСЯЦ ДЛЯ КАЖДОГО ПАРТНЕРА. &nbsp;ОБУЧАЮ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"text-align: left; font-size: 20px; line-height: 1.1;\">УНИКАЛЬНОЙ МЕТОДИКЕ ПОИСКА И&nbsp;</span><span style=\"text-align: left; font-size: 20px; line-height: 1.1;\">ПРИВЛЕЧЕНИЯ ПАРТНЕРОВ В РАЗЛИЧНЫЕ&nbsp;</span><span style=\"text-align: left; font-size: 20px; line-height: 1.1;\">ПРОЕКТЫ И СЕТЕВЫЕ КОМПАНИИ НА ПОЛНОМ&nbsp;</span><span style=\"text-align: left; font-size: 20px; line-height: 1.1;\">АВТОМАТЕ.</span></div><div><div><div style=\"text-align: right;\"><br></div></div></div>",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://glopart.ru/buy/177175\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "H2": {
+              "font-size": "30px",
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
@@ -768,7 +1011,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "<span style=\"font-weight: normal;\">Гарантия качества&nbsp;</span><div><span style=\"font-weight: normal;\">Я хочу произвести на вас впечатление качеством материала, чтобы он изменил вашу жизнь в лучшую сторону, но если у меня это не получится (в чем я очень сомневаюсь), то я без лишних вопросов верну вам все деньги. Поэтому у вас нет никаких рисков: все риски мы взяли на себя.</span></div><div><br></div>",
+                "title": "<span style=\"font-weight: normal;\">ГАРАНТИЯ КАЧЕСТВА&nbsp;</span><div><span style=\"font-weight: normal;\">&nbsp;Хочу произвести впечатление качеством материала, чтобы изменилась жизнь, но если этого не произойдёт (в чем сомневаюсь), то без лишних вопросов верну деньги. Поэтому нет никаких рисков, риски взяли на себя</span></div><div><span style=\"font-weight: normal;\"><br></span></div>",
                 "showText": true,
                 "text": "",
                 "showButtons": true,
@@ -782,7 +1025,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "showTitle": true,
-                "title": "<span style=\"font-weight: normal;\">Зачем тратить деньги на этот комплект материалов?, <br>я же и сам во всем разберусь…&nbsp;</span><div><span style=\"font-weight: normal;\">И правда — разберетесь!  Только за то время, пока вы разбираетесь во всех технических заморочках, Вы бы уже заработали дополнительно от 10 до 25 тысяч рублей, получив и применив наши материалы под ключ….&nbsp;</span></div><div><br></div>",
+                "title": "<span style=\"font-weight: normal;\">Зачем тратить деньги на этот комплект, сам разберусь&nbsp;</span><div>И правда — разберетесь!  Только за то время, пока разбираетесь в технических заморочках, уже бы заработали дополнительно 10 - 25 тысяч рублей, получив и применив наши материалы&nbsp;</div><div><br><div><div><br></div></div></div>",
                 "showText": true,
                 "text": "",
                 "showButtons": false,
@@ -798,7 +1041,7 @@
                 "showTitle": true,
                 "title": "",
                 "showText": true,
-                "text": "Т.е. внедрив наши шаблоны Вы гарантированно преумножите во много раз те деньги, которые Вы вложили в их покупку. Тем более, что… Мы хотим познакомиться с вами и произвести на вас хорошее впечатление и поэтому мы дарим вам невероятную ценность по смешной цене!&nbsp;",
+                "text": "Внедрив наши шаблоны, увеличите во много раз те деньги, которые вложили в покупку. Тем более, что… хотим познакомиться и произвести впечатление и поэтому дарим не вероятную ценность по смешной цене",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
@@ -808,16 +1051,7 @@
             "showBullets": true
           },
           "_anchor": "slider-e",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "font-size": "30px",
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_inherit": "header1",
@@ -855,7 +1089,7 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "И САМОЕ ГЛАВНОЕ,  что Вы получите не только шаблоны сайтов и<br> <br>инструкцию по созданию АВТОРАССЫЛКИ, но в дальнейшем вы<br> <br>получите инструкции как ЗАПУСТИТЬ ТРАФИК НА ВАШИ САЙТЫ и <br><br>ПОЛУЧИТЬ ОШЕЛОМЛЯЮЩУЮ КОНВЕРСИЮ,  поэтому не теряйте <br><br>своё драгоценное время, а<br><br>",
+          "title": "И ГЛАВНОЕ,  что получите шаблоны сайтов и&nbsp;<div>инструкцию по созданию АВТОРАССЫЛКИ, но в&nbsp;</div><div>дальнейшем получите инструкции как ЗАПУСТИТЬ ТРАФИК НА САЙТЫ и ПОЛУЧИТЬ&nbsp;</div><div>ОШЕЛОМЛЯЮЩУЮ КОНВЕРСИЮ,  поэтому не&nbsp;</div><div>теряйте драгоценное время, а ДЕЙСТВУЙТЕ</div><div><br><br></div>",
           "text": "",
           "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#msg-box6-3\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>ДЕЙСТВУЙТЕ</a>"
         },
@@ -912,6 +1146,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
@@ -921,11 +1159,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": true,
-            "count": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": true
           },
           "title": "WHAT OUR FANTASTIC USERS SAY",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -935,6 +1169,19 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-size": "18px"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#ffffff",
+              "font-size": "30px"
+            },
+            ".mbr-section-title DIV": {
+              "font-size": "30px"
+            }
+          },
           "_anchor": "header2-k",
           "_params": {
             "imageSize": 50,
@@ -978,24 +1225,23 @@
               "size": 250
             }
           },
-          "title": "<span style=\"font-weight: normal;\">Особое предложение только для наших новых подписчиков:<br> <br>Обычная цена данного курса = 4 000 &nbsp;рублей </span><br><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">Специальная цена = <br><br>470 рублей + комисия сервиса и платёжных систем.<br></span><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Я знаю, что вы не привыкли, что за такие смешные деньги вам</span></div><span style=\"font-weight: normal;\"><br></span><div><span style=\"font-weight: normal;\"> могут предложить что-то реально ценное. Но знаете, почему я это</span></div><span style=\"font-weight: normal;\"><br></span><div><span style=\"font-weight: normal;\"> все же делаю? Всего лишь для того, чтобы вы с минимальными</span></div><span style=\"font-weight: normal;\"><br></span><div><span style=\"font-weight: normal;\"> рисками убедились, что те знания и опыт, которыми я готов с вами</span></div><span style=\"font-weight: normal;\"><br></span><div><span style=\"font-weight: normal;\"> поделиться, действительно работают. Чтобы приобрести этот</span></div><span style=\"font-weight: normal;\"><br></span><div><span style=\"font-weight: normal;\"> курс-комплект материалов, нажмите на кнопку ниже:</span></div><div><br></div>",
+          "title": "<span style=\"font-weight: normal;\">Предложение только для наших новых подписчиков: цена курса = 4 000 рублей. Специальная цена = 470 рублей + комисия Глопарта и платёжных сервисов. Знаю, что не верите, что за такие смешные деньги предложат что то серьёзное. А знаете почему, да те знания и опыт, которыми готов поделиться, будут выгодны в дальнейшем</span><div>Чтобы приобрести этот курс-комплект материалов, нажмите на кнопку ниже</div><div><br><div><br></div></div>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://glopart.ru/buy/177175\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center",
-              "font-size": "18px"
-            },
-            ".mbr-section-title SPAN": {
-              "color": "#2b0680"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://glopart.ru/buy/177175\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДЕЙСТВУЙ</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "20px"
+            }
+          },
           "_anchor": "form1-p",
           "_params": {
             "labelsColor": "#232323",
@@ -1012,7 +1258,7 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "ЕСТЬ ВОПРОСЫ? &nbsp;НАПИШИТЕ НАМ:",
+          "title": "ЕСТЬ ВОПРОСЫ? &nbsp;НАПИШИТЕ НАМ",
           "subtitle": "",
           "form": {
             "action": "botnikov.n@yandex.ru",
@@ -1041,49 +1287,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-r",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<p><strong>Address &nbsp; </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"font-size: 0.875rem; line-height: 1.5;\">г. Омск &nbsp;ул. Лермонтова 63</span></p>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: &nbsp;info@botnikov.ru<br>тел: &nbsp;+7 962 030 85 00<br><br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a><br>\nDownload for Windows<br>\n<a class=\"text-primary\" href=\"http://botnikov.ru/about/\" target=\"_blank\">Download for Mac</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>"
         }
       ]
     }
